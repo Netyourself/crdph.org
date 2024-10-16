@@ -17,7 +17,6 @@ import MaintenancePage from "./components/Maintenance";
 
 export default function Home() {
   return (
-    // <MaintenancePage />
     <>
       {/* Main Slider */}
       <Box as="section" bg="gray.100">

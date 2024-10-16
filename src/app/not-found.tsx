@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 import MaintenancePage from "./components/Maintenance";
 import { MAINTENANCE_MODE } from "@/constants/configs-variables";
 import NotFoundPage from "./components/Not-Found";

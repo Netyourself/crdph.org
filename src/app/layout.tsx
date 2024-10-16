@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import MaintenancePage from "./maintenance/page";
+import { MAINTENANCE_MODE } from "@/constants/configs-variables";
 
 import "./globals.css";
-import { MAINTENANCE_MODE } from "@/constants/configs-variables";
 
 const inter = Inter({ subsets: ["latin"] });
 

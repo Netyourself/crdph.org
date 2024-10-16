@@ -18,7 +18,7 @@ const theme = extendTheme({
   },
 });
 
-export default function MaintenancePage() {
+const MaintenancePage = () => {
   return (
     <ChakraProvider theme={theme}>
       <Box
@@ -90,4 +90,6 @@ export default function MaintenancePage() {
       </Box>
     </ChakraProvider>
   );
-}
+};
+
+export default MaintenancePage;
